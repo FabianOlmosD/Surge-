@@ -1,0 +1,30 @@
+.card1 {
+    background-color: rgb(34, 87, 94);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  #root {
+    height: 100%;
+    background-color: rgb(34, 87, 94); /* El mismo color de fondo */
+    display: flex;
+    flex-direction: column;
+  }
+  .margintop {
+    margin-top: 20px;
+  }
+
+  .card-body-right {
+    text-align: left;
+   
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+ 
+  
+ 
