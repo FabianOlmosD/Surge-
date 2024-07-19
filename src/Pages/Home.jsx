@@ -2,16 +2,20 @@ import React from 'react';
 import '../FiveAccordions.css';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import chipititas from '../Fotos/chipititas.jpg';
+
+import Surge from '../Fotos/Surgepng.png';  // Importa el logo
 
 const Home = () => {
   return (
     <>
       <Container className="card-container">
-        <Card border="warning">
+               <Card border="warning">
           <Card.Body className="consultoria-section card-text text-white">
             <div>
-              <h3 className="text-center">BIENVENIDOS A SURGE</h3>
+              <h3 className="text-center">BIENVENIDOS A</h3>
+              <div className="logo-container">
+          <img src={Surge} alt="Logo de la empresa" className="responsive-logo" />
+        </div>
               <ul>
                 <li><strong>Optimización de Procesos:</strong> Simplificamos tus operaciones para aumentar la <br /> productividad y reducir costos.</li>
                 <li><strong>Desarrollo de Planes de Negocio:</strong> Creamos planes detallados y viables para guiar <br /> el crecimiento de tu empresa.</li>

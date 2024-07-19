@@ -1,17 +1,16 @@
 import { Link } from "react-router-dom"
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import './FiveAccordions.css';
+
+
 
 
 
 
 const NavBar = () => {
     return(
-       <div className="barra">
-        
+              
     <Navbar data-bs-theme="dark" expand="lg" className="bg-body-tertiary">
       <Container>
         
@@ -27,9 +26,9 @@ const NavBar = () => {
       </Container>
     </Navbar>
         
-        </div>
-    )
+      )
 
 }
 
 export default NavBar
+

@@ -111,4 +111,13 @@
     height: 44px;
     margin-right: 0px;
   }
+  .logo-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .responsive-logo {
+    max-width: 40%;
+    height: auto;
+  }
   

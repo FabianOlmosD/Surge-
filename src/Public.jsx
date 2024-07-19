@@ -1,5 +1,3 @@
-// App.js
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
@@ -9,13 +7,10 @@ import MercadoLibre from './Pages/Mercadolibre';
 import Clientes from './Pages/Clientes';
 import Contacto from './Pages/Contacto';
 
-
-
-function Public() {
+const Public = () => {
   return (
-    <><Router>
-     
-      <div className="App ">
+    <Router>
+      <div className="App">
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/Servicios" component={Servicios} />
@@ -24,9 +19,11 @@ function Public() {
           <Route path="/Contacto" component={Contacto} />
         </Switch>
       </div>
-    </Router></>
+    </Router>
   );
 }
 
 export default Public;
+
+
 
