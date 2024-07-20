@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "start": "serve -s dist"  
+    "start": "serve -s dist"  // Comando de inicio actualizado
   },
   "dependencies": {
     "@nextui-org/react": "^2.3.5",
@@ -24,7 +24,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.47.0",
     "react-router-dom": "^5.2.0",
-    "serve": "^14.0.1"  
+    "serve": "^14.0.1"  // Asegúrate de que `serve` esté listado aquí 
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
