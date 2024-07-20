@@ -1,10 +1,9 @@
 {
-    "build": {
-      "builder": "NIXPACKS",
-      "nixpacksConfig": {
-        "stack": "node-18"
-      }
-    },
-    "start": "npm run start"
-  }
-  
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacksConfig": {
+      "stack": "node-18"
+    }
+  },
+  "start": "npm run start"
+}
